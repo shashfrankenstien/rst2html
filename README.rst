@@ -1,5 +1,5 @@
-rst2html (Sphinx)
-=================
+rstrender (Sphinx)
+====================
 
 Use docutils and optionally, Sphinx rst2html API to generate and render .rst files on a browser
 - script watches the file for changes
@@ -7,20 +7,21 @@ Use docutils and optionally, Sphinx rst2html API to generate and render .rst fil
 
 .. code:: sh
 
-    python3 -m rst2html README.rst
+    python3 -m rstrender README.rst
 
 
 
 .. code-block:: javascript
 
     function hello() {
+        console.log("Hello")
     }
 
 ..
 
 .. code-block:: python
 
-    def heelo():
-        pass
+    def hello():
+        print("Hello")
 
 ..
